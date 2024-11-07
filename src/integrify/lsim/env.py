@@ -18,6 +18,7 @@ if not LSIM_LOGIN or not LSIM_PASSWORD or not LSIM_SENDER:
 
 class API(str, Enum):
     SEND_SMS: Literal["/quicksms/v1/smssender"] = "/quicksms/v1/smssender"
+    CHECK_BALANCE: Literal["/quicksms/v1/balance"] = "/quicksms/v1/balance"
 
 
 __all__ = [
