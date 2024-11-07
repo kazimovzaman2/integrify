@@ -1,4 +1,3 @@
-import json
 from typing import Any, Callable, Coroutine, Optional, Type, Union
 from urllib.parse import urljoin
 
